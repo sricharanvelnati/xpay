@@ -20,7 +20,7 @@ class UserController extends Controller
 {
     public function index($vendor_id = '')
     {
-        if($vendor_id != auth()->user()->id){
+        if(auth()->user()->hasRole('vendor') && $vendor_id != auth()->user()->id){
             abort(403);
         }
 

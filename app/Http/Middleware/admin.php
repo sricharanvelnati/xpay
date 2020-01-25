@@ -16,7 +16,6 @@ class admin
      */
     public function handle($request, Closure $next)
     {
-      dd(Auth::user()->roles);
       if(Auth::user() && (Auth::user()->hasRole('admin') || Auth::user()->hasRole('vendor'))) {
         return $next($request);
     }

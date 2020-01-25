@@ -128,7 +128,7 @@ Route::group(['middleware' => 'role:admin|vendor'], function () {
 
     });
     /*Categories*/
-    Route::group(['prefix' => 'admin/user', 'namespace' => 'Admin', 'middleware' => 'role:admin|vendor'], function () {
+    Route::group(['prefix' => 'admin/user', 'namespace' => 'Admin'], function () {
 
         Route::get('/', 'UserController@index')->middleware('role:admin');
         Route::get('/vendorwise/{vendor_id}', 'UserController@index');
