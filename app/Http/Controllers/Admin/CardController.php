@@ -45,8 +45,15 @@ class CardController extends Controller
 
     }
 
-    public function loadStatusUpdate(Request $request){
-		
+	public function loadStatusUpdate(Request $request)
+	{
+		$user = User::findorFail($request->userId);
+        if(auth()->user()->hasRole('vendor')){
+            if($user->vendor->id !== auth()->user()->id){
+                abort(403);
+            }
+		}
+			
         $getCardNumber = User::where('id',$request->userId)->first();
         $getAmount = Loadcard::where('id',$request->paymentId)->first();
 

@@ -92,15 +92,15 @@ Route::post('admin/login-auth', 'Admin\LoginController@login_auth');
 Route::get('merchant/login', 'Admin\LoginController@mlogin');
 Route::post('merchant/mlogin-auth', 'Admin\LoginController@mlogin_auth');
 
-Route::group(['middleware' => 'admin', 'role:admin'], function () {
+Route::group(['middleware' => 'role:admin|vendor'], function () {
     Route::get('admin/logout', function () {
         Auth::logout();
         return redirect('admin/login');
-    });
+    })->middleware('role:admin');
 	Route::get('merchant/logout', function () {
         Auth::logout();
         return redirect('merchant/login');
-    });
+    })->middleware('role:vendor');
 	
 
     Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
@@ -116,7 +116,7 @@ Route::group(['middleware' => 'admin', 'role:admin'], function () {
     });
 
     /*Admin Users*/
-    Route::group(['prefix' => 'admin/root', 'namespace' => 'Admin'], function () {
+    Route::group(['prefix' => 'admin/root', 'namespace' => 'Admin', 'middleware' => 'role:admin'], function () {
 
         Route::get('/', 'AdminProfileController@indexAdmin');
         Route::get('create', 'AdminProfileController@createAdmin');
@@ -128,15 +128,15 @@ Route::group(['middleware' => 'admin', 'role:admin'], function () {
 
     });
     /*Categories*/
-    Route::group(['prefix' => 'admin/user', 'namespace' => 'Admin'], function () {
+    Route::group(['prefix' => 'admin/user', 'namespace' => 'Admin', 'middleware' => 'role:admin|vendor'], function () {
 
-        Route::get('/', 'UserController@index');
+        Route::get('/', 'UserController@index')->middleware('role:admin');
         Route::get('/vendorwise/{vendor_id}', 'UserController@index');
         Route::get('{id}/delete', 'UserController@delete');
         Route::post('updateUserStatus', 'UserController@updateUserStatus')->name('admin.user.user-status-update');
 		Route::post('updateUserInfo', 'UserController@updateUserInfo')->name('admin.user.user-info-update');
-        Route::post('assignCard', 'UserController@assignCard');
-        Route::get('userList', 'UserController@userList');
+        Route::post('assignCard', 'UserController@assignCard')->middleware('role:admin');
+        Route::get('userList', 'UserController@userList')->middleware('role:admin');
         Route::post('deleteUser', 'UserController@delete')->name('admin.user.user-delete');
         Route::get('kyc/{id}/passport','UserController@getImageForPDF');
         Route::get('kyc-pdf/{id}','UserController@getImageForKycPDF');
@@ -144,7 +144,7 @@ Route::group(['middleware' => 'admin', 'role:admin'], function () {
     });
 
     /*Plans*/
-    Route::group(['prefix' => 'admin/plan', 'namespace' => 'Admin'], function () {
+    Route::group(['prefix' => 'admin/plan', 'namespace' => 'Admin', 'middleware' => 'role:admin'], function () {
 
         Route::get('/', 'PlanController@index');
         Route::get('create', 'PlanController@create');
@@ -156,29 +156,29 @@ Route::group(['middleware' => 'admin', 'role:admin'], function () {
     });
 
     /*CMS*/
-    Route::group(['prefix' => 'admin/cms', 'namespace' => 'Admin'], function () {
+    Route::group(['prefix' => 'admin/cms', 'namespace' => 'Admin', 'middleware' => 'role:admin'], function () {
         Route::get('create', 'CmsController@create');
         Route::post('update', 'CmsController@update');
     });
 
     /*Card*/
-    Route::group(['prefix' => 'admin/card', 'namespace' => 'Admin'], function () {
-        Route::get('cardLoad', 'CardController@cardLoad');
+    Route::group(['prefix' => 'admin/card', 'namespace' => 'Admin', 'middleware' => 'role:admin|vendor'], function () {
+        Route::get('cardLoad', 'CardController@cardLoad')->middleware('role:admin');
         Route::get('cardLoad/vendorwise/{vendor_id}', 'CardController@cardLoad');
-        Route::get('cardPurchase', 'CardController@cardPurchase');
-        Route::post('updateByAdmin', 'CardController@updateByAdmin');
+        Route::get('cardPurchase', 'CardController@cardPurchase')->middleware('role:admin');
+        Route::post('updateByAdmin', 'CardController@updateByAdmin')->middleware('role:admin');
         Route::post('loadStatusUpdate', 'CardController@loadStatusUpdate')->name('admin.card.load-status-update');
-        Route::post('updateCardNumber', 'CardController@updateCardNumber');
+        Route::post('updateCardNumber', 'CardController@updateCardNumber')->middleware('role:admin');
     });
 
     /*ContactUs*/
-    Route::group(['prefix' => 'admin/contact', 'namespace' => 'Admin'], function () {
+    Route::group(['prefix' => 'admin/contact', 'namespace' => 'Admin', 'middleware' => 'role:admin'], function () {
         Route::get('/', 'DashboardController@contactus');
         Route::post('response', 'DashboardController@response');
     });
 
     /*Admin Vendors*/
-    Route::group(['prefix' => 'admin/vendors', 'namespace' => 'Admin'], function () {
+    Route::group(['prefix' => 'admin/vendors', 'namespace' => 'Admin', 'middleware' => 'role:admin'], function () {
 
         Route::get('/', 'VendorController@index');
         Route::get('create', 'VendorController@create');

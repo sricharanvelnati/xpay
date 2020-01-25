@@ -20,6 +20,9 @@ class UserController extends Controller
 {
     public function index($vendor_id = '')
     {
+        if($vendor_id != auth()->user()->id){
+            abort(403);
+        }
 
         $getUsers = User::users();
         if($vendor_id){
@@ -123,6 +126,13 @@ class UserController extends Controller
 
     public function delete(Request $request)
     {
+        $user = User::findorFail($request->deleteId);
+        if(auth()->user()->hasRole('vendor')){
+            if($user->vendor->id !== auth()->user()->id){
+                abort(403);
+            }
+        }
+        
         $delete = User::where('id', $request->deleteId)->delete();
         if ($delete) {
             $status = 'deleted';
@@ -135,6 +145,12 @@ class UserController extends Controller
     public function getImageForPDF($id)
     {
         $user = User::findorFail($id);
+        if(auth()->user()->hasRole('vendor')){
+            if($user->vendor->id !== auth()->user()->id){
+                abort(403);
+            }
+        }
+        
         $getImages = UserKYCDetails::where('user_id', $id)->get();
         $html = "<h1>" . $user['first_name'] . "  " . $user['last_name'] . "</h1>";
         foreach ($getImages as $row) {
@@ -149,6 +165,12 @@ class UserController extends Controller
     public function getImageForKycPDF($id)
     {
         $user = User::findorFail($id);
+        if(auth()->user()->hasRole('vendor')){
+            if($user->vendor->id !== auth()->user()->id){
+                abort(403);
+            }
+        }
+
         $data = Finexus::where('user_id', $id)->first();
         $data['img_sign'] = URL::to('public/img/sign/' . $data['img_sign']);
         $data['card_no'] = $user['cardNumber'];
