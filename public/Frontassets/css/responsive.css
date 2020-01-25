@@ -1,0 +1,864 @@
+@media only screen and (min-width: 1430px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .container {
+        max-width: 1650px;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    /*****  Home Page  *****/
+    .navbar-brand {
+        max-width: 80px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 12px 15px;
+    }
+    .banner-sec h1 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .banner-sec h3 {
+        font-size: 26px;
+    }
+    .base-box .img {
+        width: 75px;
+        height: 75px;
+    }
+    .base-box {
+        padding: 25px;
+    }
+    .base-box h3 {
+        font-size: 20px;
+    }
+    .main-title span {
+        padding: 22px 0;
+    }
+    .main-title {
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+    .title-blue-lg {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .point-wrap ul li {
+        font-size: 18px;
+    }
+    .card-box {
+        padding: 45px;
+    }
+    .title-blue-lg {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .plan-p span {
+        font-size: 36px;
+    }
+    .plan-p span b {
+        font-size: 16px;
+    }
+    .about-wrap {
+        padding: 40px;
+    }
+    .card-list li .icon {
+        width: 80px;
+        height: 80px;
+    }
+    .security-content h3 {
+        font-size: 22px;
+    }
+    .footer-nav a {
+        font-size: 16px;
+        margin: 17px 20px;
+    }
+    .tirtuary-title {
+        font-size: 22px;
+    }
+    /*****  Home Page  *****/
+    /**********  Inner Pages  **********/
+    /***  login Page  ***/
+    .login-page .navbar-brand {
+        max-width: 180px;
+    }
+    /***  login Page  ***/
+    /***  About Page  ***/
+    /***  About Page  ***/
+    /***  Contact_us Page  ***/
+    /***  Contact_us Page  ***/
+    /***  policy Page  ***/
+    .gradient-list li {
+        font-size: 18px;
+    }
+    /***  policy Page  ***/
+    /**********  Inner Pages  **********/
+}
+
+@media only screen and (max-width: 1429px) {
+    /*****  Home Page  *****/
+    body p {
+        font-size: 17px;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 35px;
+    }
+    .base-box .img {
+        width: 65px;
+        height: 65px;
+    }
+    .banner-sec h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .banner-sec h3 {
+        font-size: 24px;
+    }
+    .base-box h3 {
+        font-size: 18px;
+    }
+    .title-blue-lg {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .stars {
+        margin-top: 5px;
+    }
+    .plan-content b {
+        margin-top: 5px;
+        flex: 0 0 100%;
+    }
+    .single-img img {
+        transform: scale(0.6);
+    }
+    /*****  Home Page  *****/
+    /**********  Inner Pages  **********/
+    /***  login Page  ***/
+    /***  login Page  ***/
+    /***  About Page  ***/
+    .card-list li {
+        padding: 25px 30px;
+    }
+    .card-list li .icon {
+        width: 70px;
+        height: 70px;
+    }
+    .security-content h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    /***  About Page  ***/
+    /***  Contact_us Page  ***/
+    #contact-form {
+        padding: 40px;
+        margin-top: 40px;
+    }
+    /***  Contact_us Page  ***/
+    /***  policy Page  ***/
+    /***  policy Page  ***/
+    /**********  Inner Pages  **********/
+}
+
+@media only screen and (max-width: 1199px) {
+    /*****  Home Page  *****/
+    body h4 {
+        font-size: 22px;
+    }
+    body h3 {
+		font-size: 18px;
+	}
+    .navbar-brand {
+        max-width: 70px;
+    }
+    body p {
+        font-size: 16px;
+    }
+    .base-box h3 {
+        font-size: 15px;
+    }
+    .base-box .img {
+        width: 60px;
+        height: 60px;
+    }
+    .base-box {
+        padding: 20px 5px 20px 20px;
+    }
+    .main-title span {
+        padding: 20px 0;
+    }
+    .main-title {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+    .title-blue-lg {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .point-wrap ul li span {
+        font-size: 20px;
+    }
+    .point-wrap ul li {
+        font-size: 16px;
+    }
+    .card-box {
+        padding: 38px;
+    }
+    .plan-p span {
+        font-size: 30px;
+    }
+    .plan-content b {
+        font-size: 16px;
+    }
+    .footerlogo {
+        max-width: 150px;
+    }
+    .footer-nav a {
+        margin: 17px 15px;
+    }
+    /*****  Home Page  *****/
+    /**********  Inner Pages  **********/
+    /***  login Page  ***/
+    .forgot-pass {
+        margin-left: 12px;
+        font-size: 14px;
+    }
+    .secondary-title {
+        font-size: 26px;
+        padding-bottom: 17px;
+        margin-bottom: 30px;
+    }
+    .secondary-title small {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    /***  login Page  ***/
+    /***  About Page  ***/
+    /***  About Page  ***/
+    /***  Contact_us Page  ***/
+    #contact-form {
+        padding: 20px;
+    }
+    /***  Contact_us Page  ***/
+    /***  policy Page  ***/
+    .policy-tab {
+        border-width: 5px;
+    }
+    .policy-tab .nav-item {
+        font-size: 18px;
+    }
+    .gradient-wrap {
+        padding: 20px;
+    }
+    .gradient-list li {
+        font-size: 16px;
+    }
+    .fee-table li p {
+        font-size: 16px;
+    }
+    /***  policy Page  ***/
+    /**********  Inner Pages  **********/
+}
+
+@media only screen and (max-width: 991px) {
+    /**********  Responsive Menu Bootstrap **********/
+    .navbar-expand-lg > .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /**  menu  **/
+    .navbar-toggler {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        padding: 0;
+        border-radius: 5px;
+        background-color: var(--lightblue);
+        border: 1px solid #fff;
+        text-align: center;
+        z-index: 99;
+        display: block;
+        transition: all 0.5s;
+        margin-left: 20px;
+    }
+    .navbar-toggler span {
+        position: relative;
+        width: 60%;
+        height: 2px;
+        background-color: #fff;
+        display: inline-block;
+        vertical-align: top;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .navbar-toggler span::before,
+    .navbar-toggler span::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        right: 0;
+        transition: all 0.5s;
+        animation: openCloseByeSpan 300ms linear forwards;
+    }
+    .navbar-toggler span::before {
+        top: -6px;
+    }
+    .navbar-toggler span::after {
+        top: 6px;
+    }
+    .show-menu .navbar-toggler {
+        position: fixed;
+        z-index: 5;
+        right: 15px;
+        border-radius: 5px;
+        padding: 2px;
+        top: 15px;
+        width: 30px;
+        height: 30px;
+    }
+    .show-menu .navbar-toggler span::before,
+    .show-menu .navbar-toggler span::after {
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: rotate(45deg);
+        top: -1px;
+    }
+    .show-menu .navbar-toggler span::after {
+        transform: rotate(-45deg);
+    }
+    .show-menu .navbar-toggler span {
+        height: 0;
+    }
+    #navbarNav {
+        background: #08083b url("../images/banner-img.png") no-repeat bottom right / auto 170px;
+        box-shadow: 0 0px 0 10px #08083b inset, 0 0 0 11px #fff inset;
+        padding: 60px 20px 15px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+        bottom: 0;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        -webkit-transform: translateX(110%);
+        -moz-transform: translateX(110%);
+        -ms-transform: translateX(110%);
+        -o-transform: translateX(110%);
+        transform: translateX(110%);
+        height: auto !important;
+        overflow: auto;
+    }
+    .show-menu #navbarNav {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    .navbar-nav .nav-item {
+        margin: 15px 0;
+    }
+    .navbar-nav .active .nav-link {
+        font-weight: bold;
+    }
+    /**  Menu  **/
+    /**********  Responsive Menu  **********/
+    /*****  Home Page  *****/
+    .round-icon {
+        box-shadow: 0 0 3px 0 rgba(16, 213, 255, 0.6), 0 0 0 7px rgba(16, 213, 255, 0.06);
+    }
+    .base-box .img {
+        width: 45px;
+        height: 45px;
+    }
+    .main-title {
+        font-size: 24px;
+    }
+    .main-title span {
+        padding: 15px 0;
+    }
+    .point-wrap {
+        padding: 50px 0 0;
+    }
+    .title-blue-lg {
+        font-size: 26px;
+    }
+    .point-wrap ul li span {
+        font-size: 16px;
+        margin: 0 7px;
+    }
+    .point-wrap ul li {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    .title-blue-lg {
+        font-size: 24px;
+    }
+    .plan-content b {
+        flex: 1;
+    }
+    .footer-nav a {
+        margin: 15px 12px;
+        font-size: 14px;
+    }
+    .tirtuary-title {
+        font-size: 20px;
+    }
+    /*****  Home Page  *****/
+    /**********  Inner Pages  **********/
+    /***  login Page  ***/
+    .amt-wrap .form-label-group {
+        padding: 5px 10px;
+    }
+    /***  login Page  ***/
+    /***  About Page  ***/
+    .about-wrap {
+        padding: 25px;
+    }
+    .about-wrap .icon {
+        width: 52px;
+        height: 52px;
+        margin-right: 20px;
+    }
+    body h4 {
+        font-size: 18px;
+    }
+    .card-list li {
+        padding: 15px;
+    }
+    .card-list li .icon {
+        width: 50px;
+        height: 50px;
+        margin-right: 16px;
+    }
+    .security-content h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .security-content p {
+        font-size: 14px;
+    }
+    .list-in span {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .list-in span::before {
+        left: 5px;
+        top: 8px;
+        width: 10px;
+    }
+    /***  About Page  ***/
+    /***  policy Page  ***/
+    .policy-tab .nav-item {
+        font-size: 16px;
+        min-width: 150px;
+    }
+    .gradient-list li {
+        font-size: 16px;
+    }
+    /***  policy Page  ***/
+    .app-nav li label {
+		font-size: 12px;
+	}
+	.app-nav li.app-sucess span::before, .app-nav li.loading span::before {
+		width: 30px;
+		height: 30px;
+		background-size: 60% auto;
+		top: -10px;
+		left: -10px;
+	}
+	.app-nav li span {
+		border-color: 4px;
+		margin-bottom: 20px;
+		width: 18px;
+		height: 18px;
+	}
+	.app-nav {
+  	margin-bottom: 60px;
+  }
+  .fee-limit .bbox-wrap {
+  	margin-left: 10px;
+  }
+    /**********  Inner Pages  **********/
+}
+
+@media only screen and (max-width: 767px) {
+    /*****  Home Page  *****/
+    .banner-sec h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    body h4 {
+        font-size: 16px;
+    }
+    .banner-sec h3 {
+        font-size: 20px;
+    }
+    body p {
+        font-size: 14px;
+    }
+    section {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .main-title {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .point-wrap {
+        padding-top: 40px;
+    }
+    .card-box {
+        padding: 20px;
+    }
+    .gradient-box {
+        padding: 50px;
+        max-width: 60%;
+        margin: 0 auto 15px;
+    }
+    .alternate [class*="col-"]:first-child {
+        order: 0;
+    }
+    .plan-p {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .plan-p img {
+        margin-bottom: 10px;
+        max-width: 60px;
+    }
+    .plan-p span {
+        font-size: 24px;
+    }
+    .plan-p span b {
+        font-size: 12px;
+    }
+    .plan-content li {
+        margin-top: 10px;
+    }
+
+    footer {
+        padding: 40px 0;
+        background-position: right bottom;
+    }
+    .footerlogo {
+        max-width: 120px;
+    }
+
+
+    /*****  Home Page  *****/
+
+    /**********  Inner Pages  **********/
+    /***  login Page  ***/
+    /***  login Page  ***/
+    /***  About Page  ***/
+    .tirtuary-title {
+        font-size: 18px;
+    }
+    .single-img img {
+        transform: scale(1);
+        max-width: 150px;
+        margin-bottom: 20px;
+    }
+    /***  About Page  ***/
+    /***  Policy Page  ***/
+    .policy-tab .nav-item {
+        font-size: 14px;
+        min-width: 120px;
+        padding: 10px 5px;
+    }
+    .fee-table li p {
+        font-size: 14px;
+    }
+    p.note {
+        font-size: 12px;
+    }
+    .gradient-list li {
+        font-size: 14px;
+    }
+    /***  Policy Page  ***/
+    .currency img {
+		margin: 0 5px 0 0;
+		max-width: 21px;
+	}
+	.amt-wrap .form-label-group {
+		padding: 5px;
+	}
+  .amt-wrap select, .amt-wrap .currency {
+      padding: 0 10px;
+      font-size: 12px;
+  }
+  .amt-wrap:last-child .currency {
+      flex: none;
+  }
+  .twofactor {
+      font-size: 12px;
+  }
+  .factor-amt {
+      font-size: 16px;
+  }
+  .amt-wrap:first-child .currency {
+      height: 50px;
+  }
+  .factor-amt span {
+      font-size: 10px;
+  }
+	.amt-wrap select {
+		padding-right: 30px;
+	}
+	.btc-convert .amt-wrap:first-child::before, .btc-convert .amt-wrap:last-child::before {
+		border-top-width: 25px;
+		border-bottom-width: 25px;
+	}
+  .fa-form .pincode-input-container .form-control {
+    max-width: none;
+}
+    /**********  Inner Pages  **********/
+}
+
+@media only screen and (max-width: 575px) {
+    /*****  Home Page  *****/
+    .login-page .navbar-brand {
+        max-width: 120px;
+    }
+    .secondary-title {
+        font-size: 22px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+    .lang-drop {
+        height: 42px;
+    }
+    .banner_img {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .gradient-box {
+        padding: 15px 30px;
+        max-width: 45%;
+        margin: 0 auto 15px;
+    }
+    .title-blue-lg {
+        font-size: 22px;
+    }
+    .card-box {
+        background-position: right bottom;
+        background-size: 100px auto;
+    }
+    /*****  Home Page  *****/
+    /**********  Inner Pages  **********/
+    /***  login Page  ***/
+    .secondary-title {
+        font-size: 22px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+    .secondary-title small {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .form-label-group label {
+        top: 17px;
+        font-size: 16px;
+        left: 10px;
+    }
+    .form-label-group input:focus + label, .form-label-group label.freeze {
+        font-size: 10px;
+        left: 10px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-control {
+        height: 55px;
+        font-size: 18px;
+    }
+    /***  login Page  ***/
+
+    /***  About Page  ***/
+    .stars {
+        margin-top: 0;
+    }
+    /***  About Page  ***/
+    body h3 {
+		font-size: 14px;
+	}
+	.app-nav li.app-sucess span::before, .app-nav li.loading span::before {
+		width: 25px;
+		height: 25px;
+		background-size: 60% auto;
+		top: -7px;
+		left: -7px;
+	}
+	.app-nav {
+		margin: 15px 0 40px;
+	}
+  .main-title span::after {
+      right: 0px;
+  }
+    /**********  Inner Pages  **********/
+}
+
+@media only screen and (max-width: 480px) {
+    /*****  Home Page  *****/
+    body p {
+        font-size: 12px;
+    }
+    .navbar-brand {
+        max-width: 55px;
+    }
+    .fixed .navbar-brand {
+        max-width: 45px;
+    }
+    .banner-sec {
+        min-height: 0 !important;
+        padding-bottom: 40px !important;
+        padding-top: 40px !important;
+    }
+    .full-height {
+        height: auto;
+    }
+    .banner-sec h1 {
+        font-size: 26px;
+    }
+    .banner-sec h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .base-box {
+        padding: 15px 5px 15px 20px;
+    }
+    .base-box .img {
+        width: 35px;
+        height: 35px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .title-blue-lg {
+        font-size: 18px;
+    }
+    .footer-nav a {
+        margin: 15px 6px;
+        font-size: 12px;
+    }
+    .plan-content span {
+        font-size: 14px;
+    }
+    .plan-content b {
+        font-size: 14px;
+    }
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    /*****  Home Page  *****/
+    /**********  Inner Pages  **********/
+    /***  login Page  ***/
+    /***  login Page  ***/
+
+    /***  About Page  ***/
+    .full-height {
+        min-height: 0 !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    .about-wrap {
+        flex-direction: column;
+    }
+    .about-wrap .icon {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .card-list li .icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+    .security-content p {
+        font-size: 12px;
+    }
+    .list-in span {
+        font-size: 12px;
+    }
+    .card-list li {
+        margin-top: 15px;
+    }
+    /***  About Page  ***/
+    /***  Policy Page  ***/
+    .policy-tab .nav-item {
+        font-size: 12px;
+        min-width: 0;
+        padding: 10px 15px;
+    }
+    .gradient-list li {
+        font-size: 12px;
+        padding: 7px 7px 7px 25px;
+    }
+    .gradient-list li::before {
+        left: 10px;
+    }
+    body h4::after {
+        width: 30px;
+    }
+    .fee-table li p {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    p.note {
+        font-size: 10px;
+    }
+    /***  Policy Page  ***/
+    .btc-convert .amt-wrap:last-child, .btc-convert .amt-wrap:first-child {
+		border-radius: 5px;
+		margin: 10px 0;
+		flex: 0 0 100%;
+	}
+    .btc-convert .amt-wrap:last-child::before, .btc-convert .amt-wrap:first-child::before {
+		display: none;
+	}
+    .amt-wrap select, .amt-wrap .currency {
+		font-size: 12px;
+	}
+	.currency img {
+		max-width: 17px;
+	}
+	.amt-wrap select {
+		background-size: 10px auto;
+		padding-right: 16px;
+		background-position: calc(100% - 5px) center;
+		padding-left: 5px;
+	}
+	.btc-convert::before {
+		background-color: #fff;
+		color: #000;
+    display: none;
+	}
+    /**********  Inner Pages  **********/
+}

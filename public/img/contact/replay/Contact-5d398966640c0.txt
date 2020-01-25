@@ -1,0 +1,35 @@
+You may withdraw your consent to our continued use and disclosure of your Personal Data or seek access to your Personal Data (to a reasonable extent and as permitted by the Act) at any time by writing to the Office of our Data Protection Officer. You may also withdraw your consent for specific forms of communication and on specific communications via the unsubscribe options as stated on our email or other marketing messages.
+您可以隨時通過寫信給我們的數據保護官辦公室，撤銷您對我們繼續使用和披露您的個人數據的同意或尋求訪問您的個人數據（在合理範圍內並且在法案允許的情況下）。 您也可以通過我們的電子郵件或其他營銷信息中所述的取消訂閱選項撤銷您對特定通信形式和特定通信的同意。
+
+In withdrawing your consent, you acknowledge that we may not be able to provide or continue providing certain goods and/or services to you and that we may cease such provision accordingly without any liability. Please note that it may take up to 30 working days for any request for consent withdrawal to be reflected in our systems.
+在撤銷您的同意時，您承認我們可能無法向您提供或繼續提供某些商品和/或服務，並且我們可能會相應地停止此類規定而不承擔任何責任。 請注意，任何撤銷同意請求最多可能需要30個工作日才能反映在我們的系統中。
+
+We will, at your request, endeavor to provide you with an account of your Personal Data in our possession or control within a reasonable time. Such account shall be in respect of how your Personal Data has been or may have been generally used or disclosed within the year before the date of your request. We reserve the right to charge a reasonable administrative fee for carrying out your request.
+我們將根據您的要求，在合理的時間內盡力為您提供我們擁有或控制的您的個人數據。 此類帳戶應與您的個人資料在您提出申請之日前一年內已經或可能已被普遍使用或披露的方式有關。 我們保留收取執行您的請求的合理管理費的權利。
+
+We will endeavor to ensure that your Personal Data we use is sufficiently accurate and complete in making any decision that impacts you.
+我們將盡力確保我們使用的您的個人數據足夠準確和完整，以做出任何影響您的決定。
+
+To help us maintain the accuracy of your Personal Data, we encourage you to inform us when there are any changes to your Personal Data which you have provided us by writing to the Office of our Data Protection Officer. We will correct or complete your Personal Data as soon as reasonably practicable.
+為幫助我們保持您的個人數據的準確性，我們建議您在通過寫信給我們的數據保護官辦公室向您提供的個人數據發生任何變更時通知我們。 我們將在合理可行的範圍內盡快更正或完整您的個人資料。
+
+We will endeavor to protect your Personal Data in our possession or control against risks of unauthorized access, collection, use, disclosure, copying, modification, disposal or destruction, through reasonable and appropriate security measures. We strive to ensure that our systems are secure and that they meet industry standards.
+我們將通過合理和適當的安全措施，努力保護您擁有或控制的個人數據，防止未經授權的訪問，收集，使用，披露，複製，修改，處置或破壞的風險。 我們努力確保我們的系統安全並且符合行業標準。
+
+To prevent unauthorized access, maintain data accuracy and ensure the correct use of information, we have put in place appropriate physical, electronic, and managerial procedures to safeguard and secure the Personal Data we collect. Notwithstanding our security measures for protecting your Personal Data, you acknowledge that no data transmission over the Internet is completely secure and by providing your Personal Data, you are transmitting information at your own risk.
+為了防止未經授權的訪問，保持數據準確性並確保正確使用信息，我們已採取適當的物理，電子和管理程序來保護和保護我們收集的個人數據。 儘管我們採取了保護您個人數據的安全措施，但您承認無法通過互聯網進行數據傳輸是絕對安全的，並且通過提供您的個人數據，您傳輸信息的風險由您自行承擔。
+
+We will retain your Personal Data for as long as you use our products or services and it is necessarily required or relevant for business or legal purposes.
+只要您使用我們的產品或服務，我們將保留您的個人數據，並且必須或出於商業或法律目的而相關。
+
+7.1 We gather Information on our website activity, such as data on the number of visitors, the pages they visit, the duration of their stay, etc. Such information is collected on an aggregate, anonymous basis, which means no Personal Data is associated with this data and gathered through the use of web server logs and cookies. We do not at our website automatically collect Personal Data unless you provide such information or login with your account credentials.
+我們收集有關我們網站活動的信息，例如訪客數量，訪問頁面，逗留時間等數據。此類信息是以匿名方式收集的，這意味著沒有與此相關的個人數據 數據並通過使用Web服務器日誌和cookie收集。 除非您提供此類信息或使用您的帳戶憑據登錄，否則我們不會在我們的網站上自動收集個人數據。
+
+Cookies are small bits of data automatically stored on the hard drive of the end user and are commonly used to track preferences in relation to the subject of such website. If you enable these cookies, then your web browser adds the text in a small file. You may wish to set your web browser to notify you of a cookie placement request or refuse to accept cookies by modifying relevant internet options or browsing preferences of your computer system, but to do so you may not be able to utilize or activate certain available functions on our website.
+Cookie是自動存儲在最終用戶的硬盤驅動器上的少量數據，通常用於跟踪與此類網站主題相關的偏好。 如果啟用這些cookie，則Web瀏覽器會將文本添加到一個小文件中。 您可能希望將Web瀏覽器設置為通過修改相關的Internet選項或瀏覽計算機系統的首選項來通知您cookie放置請求或拒絕接受cookie，但這樣做可能無法使用或激活某些可用功能 在我們的網站上。
+
+By accessing and using our website and services, you consent to the storage of cookies, other local storage technologies, beacons and other information on your devices. You also consent to the access of such cookies, local storage technologies, beacons and information by us or our representatives or agents.
+訪問和使用我們的網站和服務即表示您同意在您的設備上存儲cookie，其他本地存儲技術，信標和其他信息。 您還同意我們或我們的代表或代理商訪問此類cookie，本地存儲技術，信標和信息。
+
+Our website and/or services may link to third-party websites and services that are outside our control. For example, we may enable you to share certain materials on the services with others through social networking services such as Facebook. We are not responsible for the security or privacy of any information collected by websites or other services. You should exercise caution, and review the privacy statements applicable to the third-party websites and services you use. To the fullest extent permitted under laws, we cannot be responsible for a third party’s acts, omissions, data policies or their use of cookies nor the content or security of any third party websites, even if linked to our website. Any such liability is expressly disclaimed and excluded.
+我們的網站和/或服務可能鏈接到我們無法控制的第三方網站和服務。 例如，我們可以讓您通過Facebook等社交網絡服務與他人共享服務的某些材料。 我們不對網站或其他服務收集的任何信息的安全性或隱私負責。 您應謹慎行事，並查看適用於您使用的第三方網站和服務的隱私聲明。 在法律允許的最大範圍內，我們不對第三方的行為，疏忽，數據政策或其使用cookie或任何第三方網站的內容或安全性負責，即使鏈接到我們的網站。 任何此類責任均明確放棄並被排除在外。
