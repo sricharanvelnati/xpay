@@ -61,7 +61,7 @@ class UserController extends Controller
             ->update($data['user_data']);
 		
 		$user = User::where('id', $request->userId)->first();		
-	
+		//var_dump($user->title);die();
 		$pdf_data['data'] = $data['user_data'];
 		$pdf_data['data']['title'] = $user->title;
 		$pdf_data['data']['name'] = $data['user_data']['first_name']. ' '.$data['user_data']['last_name'];

@@ -20,7 +20,7 @@ class User extends Authenticatable implements MustVerifyEmail
      */
     protected $fillable = [
           'first_name', 'last_name', 'company_name', 'email', 'dob', 'nationality', 'passport_id','pep', 'maiden_name', 'password','contactNumber','countryCode','countryName','cardCount','google2fa_enable','google2fa_secret',
-        'google2fa_qr','cardNumber','urnNumber','cardStatus','status','appid','is_kyc_approved','kycres','balance_usd','balance_btc','balance_eth','address1','address2','city','state','pincode','d_country','is_kyc_details','inspectionId', 'vendor_id', 'img_sign'];
+        'google2fa_qr','cardNumber','urnNumber','cardStatus','status','appid','is_kyc_approved','kycres','balance_usd','balance_btc','balance_eth','address1','address2','city','state','pincode','d_country','is_kyc_details','inspectionId', 'vendor_id', 'img_sign','partner_fee'];
 
     /**
      * The attributes that should be hidden for arrays.

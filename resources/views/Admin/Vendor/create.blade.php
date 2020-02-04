@@ -40,7 +40,7 @@
 					</div>
 					<div class="form-group">
 						<label for="exampleInputEmail1">Partner Fee</label>
-						<input type="number" min="0" max="100" class="form-control" name="partner_fee" required >
+						<input type="number" max="100" step="0.01" class="form-control" name="partner_fee" required >
 					</div>
 					<div class="form-group">
 						<label for="exampleInputEmail1">Email</label>

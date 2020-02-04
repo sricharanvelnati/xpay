@@ -34,11 +34,13 @@ class VendorController extends Controller
 		]);
 
 		$data = $request->all();
+		   
 		$data['password'] = Hash::make($request->password);
+		 
 		$data['api_token'] = bin2hex(openssl_random_pseudo_bytes(10));
 		$vendor = new User();
 		$vendor->fill($data);
-
+		 
 		if($vendor->save()){
 			$vendor->roles()->attach(3);
 			return redirect('admin/vendors');

@@ -220,10 +220,12 @@
 			
 			<div class="form-group col-12">
               <label class="col-form-label font-weight-bold">Attachments</label>
-			  <a href="{{URL::to('admin/user/kyc-pdf/'.$user->id)}}"  target="_blank" style="font-weight: bold">KYC PDF </a>
+			  <a id="kyc" href="{{URL::to('public/img/finexus_kyc/')}}"  target="_blank" style="font-weight: bold">KYC PDF </a>
+			  <!-- <label class="col-form-label" id="kyc"></label> -->
+			   
             </div>
 			
-          </div>
+          </div> 
       </div>
     </div>
   </div>
@@ -407,6 +409,7 @@
 		modal.find('.modal-body #e_cardNumber').val(user.cardNumber);
 		//modal.find('.modal-body #e_status').val(user.status == 'active'? '2' : '3');
 		modal.find('.modal-body #status').html(user.status == 'active'? 'Activated' : 'Deactivated');
+		
     })
 	/* EDIT MODAL END */
     $('#exampleModal').on('show.bs.modal', function (event) {
@@ -437,6 +440,8 @@
       modal.find('.modal-body #cardNumber').html(user.cardNumber);
       //modal.find('.modal-body #status').html(user.status == 'active'? 1 : 2);
 	  modal.find('.modal-body #status').html(user.status == 'active'? 'Activated' : 'Deactivated');
+	  var kycpdf_url = '{{URL::to('public/img/finexus_kyc/')}}';
+	  modal.find('.modal-body #kyc').attr('href',  kycpdf_url + '/' +user.id+'-KYC-FINEXUS.pdf');
       
       attachments_html = '';
       $.each(attachments, function(i, v){
